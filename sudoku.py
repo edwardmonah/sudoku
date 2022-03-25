@@ -63,6 +63,7 @@ def print_board(bo):
             else:
                 print(str(bo[i][j])+ " ", end="")
 
+#This is an example of a sudoku board that requires solving.                
 board = [
         [6, 0, 3, 1, 0, 0, 2, 0, 0],
         [0, 0, 0, 0, 4, 0, 0, 0, 7],
